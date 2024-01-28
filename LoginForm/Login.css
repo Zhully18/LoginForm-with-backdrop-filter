@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.login{
+    position: relative;
+    margin: 50px auto;
+    margin-top: 120px;
+    padding: 2rem 1rem;
+    width: 390px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: hsla(0, 0%, 10%, .1);
+    text-align: center;
+    backdrop-filter: blur(8px);
+}
+h1{
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+form input{
+    width: 92%;
+    outline: none;
+    padding: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e4e4e4;
+  }
+form input:focus{
+    border: 1px solid rgb(192, 192, 192);
+}
+form i{
+    position: absolute;
+    left: 40px; 
+    margin-top: 11px;
+    font-size: 20px;
+}
+ 
+input::placeholder{
+    text-align: center;
+    margin-left: 200px;
+}
+.container{
+    display: grid;
+}
+button{
+    width: 90%;
+    border: none;
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    color: #fff;
+    background: rgb(100, 2, 124);
+  }
+button:hover{
+    background: rgba(118, 17, 143, 0.8);
+  }
+.login-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.member{
+    font-size: 1rem;
+    margin-top: 1.9rem;
+    color: #636363;
+}
+.member a,
+.recover-password a{
+    text-decoration: none;
+    color: #fff;
+}
+.recover-password{
+    text-align: right;
+}
